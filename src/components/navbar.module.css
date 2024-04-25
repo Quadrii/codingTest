@@ -1,0 +1,173 @@
+.navwrap {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notification {
+    cursor: pointer;
+}
+.listwrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.searcIcon {
+    color: #13259e;
+}
+ .anchor{
+    color: #13259e;
+    text-decoration: none;
+}
+.profilewrap img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.rightmenu {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.leftmenu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.search {
+    display: flex;
+    gap: 10px;
+    background-color:#eee;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--textSoft);
+    width: 400px;
+}
+.input:focus{
+    background-color: unset;
+    border: none;
+}
+.notifications {
+    position: relative;
+}
+.bell {
+    font-size: 20px;
+    color: #13259e;
+    cursor: pointer;
+}
+.notificationcount {
+    background-color: red;
+    color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 800px) {
+    .input {
+        width: unset;
+    }
+    .rightmenu{
+        gap: 10px;
+    }
+    .leftmenu {
+        gap: 10px;
+    }
+    .navwrap {
+        display: flex ;
+        gap: 20px;
+        justify-content: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .input {
+        width: unset;
+    }
+    .rightmenu{
+        gap: 10px;
+    }
+    .leftmenu {
+        gap: 10px;
+    }
+    .navwrap {
+        display: flex ;
+        gap: 20px;
+        justify-content: unset;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .web {
+        display: none;
+       } 
+    
+       .mobile {
+        display: block;
+       }
+       .navwrap {
+        justify-content: space-between;
+        }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .web {
+        display: none;
+       } 
+    
+       .mobile {
+        display: block;
+       }
+       .navwrap {
+        justify-content: space-between;
+        }
+}
+
+@media only screen and (max-width: 360px) {
+    .web {
+        display: none;
+       } 
+    
+       .mobile {
+        display: block;
+       }
+       .navwrap {
+        justify-content: space-between;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+   .web {
+    display: none;
+   } 
+
+   .mobile {
+    display: block;
+   }
+   .navwrap {
+    justify-content: space-between;
+    }
+}

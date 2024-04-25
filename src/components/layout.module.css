@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contentwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebarwrapper {
+    width: 120px;
+    padding: 5px 20px;
+    background-color: #13259e;
+    height: 100vh;
+}
+.content {
+    width: 100%;
+    padding: 5px 20px;
+}
+

@@ -1,0 +1,42 @@
+.sidebarwrapper {
+}
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.item {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+/* .sidemenu:hover {
+    background-color: antiquewhite;
+} */
+.active {
+    background-color: #fff;
+    font-size: 50px !important;
+    border-radius: 5px;
+    margin-left: 50px;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    cursor: pointer;
+    color: red !important;
+}
+.logo {
+    margin-bottom: 100px;
+}
+.iconmenu {
+    color: #ddd;
+    font-size: larger;
+}
+
+
+
+/* Media Query */
+@media only screen and (max-width: 320px) {
+    .sidebarwrapper {
+     display: none;
+    }
+  }

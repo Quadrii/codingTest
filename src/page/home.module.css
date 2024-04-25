@@ -1,0 +1,561 @@
+.homewrapper {
+    padding: 5px 20px;
+    display: flex;
+    gap: 20px;
+}
+.titled {
+    font-weight: bold;
+    color: #13259e;
+}
+.stats {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.transactions {
+    flex: 1;
+}
+.lastcard {
+    background-color: red !important;
+    color: #fff;
+}
+.gridbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: minmax(150px, auto);
+}
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    position: relative;
+    width: 100%;
+}
+.imgwrap img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+}
+.cloudimg {
+    object-fit: cover;
+    opacity: 0.1;
+}
+.timespent {
+    width: 100%;
+    height: 100%;
+}
+.userphoto {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.budget {
+    display: flex;
+    gap: 20px;
+    color: #13259e;
+    margin-bottom: 20px;
+}
+
+.userInfo {
+    font-weight: bolder;
+}
+
+.username {
+    color: #13259e;
+}
+.title {
+    color: grey;
+}
+.lesson {
+    color: #13259e;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.session {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.detail {
+    display: flex;
+    gap: 10px;
+}
+.icon {
+    color: #13259e;
+}
+.icons {
+    color: aqua;
+}
+.detail span {
+    color: #13259e;
+    font-weight: bold;
+}
+.likes {
+    color: red;
+}
+.connect {
+    display: flex;
+    justify-content: space-between;
+}
+.days {
+    color: #13259e;
+}
+.cbtn {
+    background-color: #13259e;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+}
+.transactions {
+    border-radius: 10px;
+    background-color: #eee;
+}
+.transactions {
+    padding: 5px 20px;
+}
+.edits {
+    float: right;
+    cursor: pointer;
+}
+.value h4 {
+    background-color: #13259e;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.piechart {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bigcircle {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    border-radius: 50%;
+    margin-top: 30px;
+    padding-top: 1px;
+}
+.piechat {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.smallpie {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+.smallpie h2 {
+    color: #13259e;
+    font-weight: bolder;
+    padding-top: 35px;
+}
+.gridata {
+    color: #13259e;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.gridata h4 {
+    font-weight: bolder;
+}
+.cardwrap img {
+   width: 100%;
+   height: 50%; 
+   object-fit: cover;
+   margin-bottom: 30px;
+}
+.iconwrap {
+    display: flex;
+    gap: 20px;
+}
+.icontabili {
+    color: red;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.icontabil {
+    color: white;
+    background-color: red;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.tabiliinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.span {
+    display: flex;
+    flex-direction: column;
+}
+.span h4 {
+    color: #13259e;
+    font-weight: bolder;
+}
+.timed {
+    color: grey;
+    font-size: small;
+}
+.infor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.namee h4 {
+    color: #13259e;
+    font-weight: bolder;
+}
+.webhomes {
+    display: block;
+}
+.mobilehome {
+    display: none;
+}
+
+/* Media Query */
+
+
+@media only screen and (max-width: 425px) {
+    .mobilehome {
+        display: block;
+    }
+
+    .webhomes {
+      display: none;
+    } 
+    .homewrapper {
+        padding: 0;
+    }
+    .togglswitch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+        border-radius: 20px;
+        box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    }
+    .statsticss {
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .transactionss {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .active {
+        background-color: aquamarine;
+    }
+    .cards {
+        gap: 5px;
+    }
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail {
+        font-size: 13px;
+    }
+    .sales {
+        text-align: center;
+        color: #13259e;
+        font-weight: bolder;
+    }
+    .transactions {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mobilehome {
+        display: block;
+    }
+
+    .webhomes {
+      display: none;
+    } 
+    .homewrapper {
+        padding: 0;
+    }
+    .togglswitch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+        box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    }
+    .statsticss {
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .transactionss {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .active {
+        background-color: aquamarine;
+    }
+    .cards {
+        gap: 5px;
+    }
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail {
+        font-size: 13px;
+    }
+    .sales {
+        text-align: center;
+        color: #13259e;
+        font-weight: bolder;
+    }
+    .transactions {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mobilehome {
+        display: block;
+    }
+
+    .webhomes {
+      display: none;
+    } 
+    .homewrapper {
+        padding: 0;
+    }
+    .togglswitch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+        box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    }
+    .statsticss {
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .transactionss {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .active {
+        background-color: aquamarine;
+    }
+    .cards {
+        gap: 5px;
+    }
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail {
+        font-size: 13px;
+    }
+    .sales {
+        text-align: center;
+        color: #13259e;
+        font-weight: bolder;
+    }
+    .transactions {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .mobilehome {
+        display: block;
+    }
+
+    .webhomes {
+      display: none;
+    } 
+    .homewrapper {
+        padding: 0;
+    }
+    .togglswitch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+        box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    }
+    .statsticss {
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .transactionss {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .active {
+        background-color: aquamarine;
+    }
+    .cards {
+        gap: 5px;
+    }
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail {
+        font-size: 13px;
+    }
+    .sales {
+        text-align: center;
+        color: #13259e;
+        font-weight: bolder;
+    }
+    .transactions {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mobilehome {
+        display: block;
+    }
+
+    .webhomes {
+      display: none;
+    } 
+    .homewrapper {
+        padding: 0;
+    }
+    .togglswitch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+        box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+    }
+    .statsticss {
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .transactionss {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+    }
+    .active {
+        background-color: aquamarine;
+    }
+    .cards {
+        gap: 5px;
+    }
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail {
+        font-size: 13px;
+    }
+    .sales {
+        text-align: center;
+        color: #13259e;
+        font-weight: bolder;
+    }
+    .transactions {
+        margin-top: 30px;
+    }
+}
